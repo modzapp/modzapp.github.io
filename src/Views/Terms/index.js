@@ -1,14 +1,14 @@
 import React from 'react';
 import { StyledScreen, StyledMainText } from './styled';
 
-const App = () => {
+const Terms = () => {
   return (
     <StyledScreen>
       <StyledMainText>
-        WE'RE COMING SOON!
+        Terms & Conditions
       </StyledMainText>
     </StyledScreen>
   );
 }
 
-export default App;
+export default Terms;

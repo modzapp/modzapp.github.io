@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
+import { Router } from './Router';
 
 ReactDOM.render(
-    <App />,
+    <Router />,
   document.getElementById('root')
 );
 
